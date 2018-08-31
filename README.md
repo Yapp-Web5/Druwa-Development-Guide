@@ -50,3 +50,29 @@ Mac OS 를 기준으로 `Cmd + ,`를 눌러서 환경설정을 다음과 같이 
   "typescript.updateImportsOnFileMove.enabled": "never"
 }
 ```
+
+### Git Version Manager
+
+Git Version Manager 는 `SourceTree`를 사용합니다. GUI 기반으로 사용하기 쉽고, 브랜치 확인이 용이하며, 분할 Commit 이 간편합니다.
+Download - https://www.sourcetreeapp.com/
+
+### Git Commit Convention
+
+개발자에게 있어서 Commit Message 를 작성하는 것은 매우 중요한 작업입니다. Message 만 보고, 이 Commit 이 어떠한 작업에 대한 Commit 인지 한 번에 알 수 있도로 작성합니다.
+기본적으로 영문으로 작성하는 것을 원칙을 추천합니다.
+
+**Commit Message 기본 룰**
+
+```
+작업한 메인 파일: 작업내용
+
+See: Github issue #GITHUB_ISSUE_NUMBER (해당하는 Issue가 없을 경우 Skip)
+```
+
+**Commit Message 예시**
+
+```
+GithubController: Create new API feature to create new room
+
+See: Github issue #11
+```
