@@ -64,7 +64,7 @@ Git Version Manager 는 `SourceTree`를 사용합니다. GUI 기반으로 사용
 ### Git Commit Convention
 
 개발자에게 있어서 Commit Message 를 작성하는 것은 매우 중요한 작업입니다. Message 만 보고, 이 Commit 이 어떠한 작업에 대한 Commit 인지 한 번에 알 수 있도로 작성합니다.
-기본적으로 영문으로 작성하는 것을 원칙을 추천합니다.
+기본적으로 영문으로 작성하는 것을 추천합니다.
 
 **Commit Message 기본 룰**
 
