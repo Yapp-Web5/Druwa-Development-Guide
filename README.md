@@ -17,13 +17,15 @@ Visual Studio Code 개발환경 Setting 가이드입니다.
 
 VSCode 에서 유용한 플러그인들을 설치해줍니다.
 
-1. Prettier (Requirement)
-2. ESLint (Requirement)
-3. TSLint (Requirement)
+1. Prettier (Requirement) - 코드를 Lint 에 맞춰서 예쁘게 정돈해주는 플러그인
+2. ESLint (Requirement) - JavaScript Lint 검사해주는 플러그인
+3. TSLint (Requirement) - TypeScript Lint 검사해주는 플러그인
 4. Path Intellisense (Optional)
 5. TypeScript Importer (Optional)
 
 #### 기타 VSCode 설정들
+
+Mac OS 를 기준으로 `Cmd + ,`를 눌러서 환경설정을 다음과 같이 해줍니다.
 
 ```json
 {
