@@ -54,7 +54,8 @@ Mac OS 를 기준으로 `Cmd + ,`를 눌러서 환경설정을 다음과 같이 
 ### Git Version Manager
 
 Git Version Manager 는 `SourceTree`를 사용합니다. GUI 기반으로 사용하기 쉽고, 브랜치 확인이 용이하며, 분할 Commit 이 간편합니다.
-Download - https://www.sourcetreeapp.com/
+
+- Download - https://www.sourcetreeapp.com/
 
 ### Git Commit Convention
 
