@@ -6,8 +6,12 @@ Druwa developement Guide
 
 본 가이드는 MacOS 를 기준으로 작성되었습니다. Windows 도 비슷할 것이라 예상합니다.
 
+### 필요한 소프트웨어
+
 - Editor: Visual Studio Code (https://code.visualstudio.com/) 현재까지 `TypeScript`에 대한 지원이 가장 좋습니다.
 - MongoDB GUI - Robo 3T (https://robomongo.org/download)
+- Git Manager - SourceTree (https://www.sourcetreeapp.com/)
+- API Tester - Postman (https://www.getpostman.com/)
 
 ### Visual Studio Code
 
