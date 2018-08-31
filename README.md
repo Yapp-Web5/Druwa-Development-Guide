@@ -81,3 +81,44 @@ GithubController: Create new API feature to create new room
 
 See: Github issue #11
 ```
+
+## 작업 시작하기
+
+개발을 시작하기에 앞서 전반적인 개발 프로세스에 대해서 설명합니다.
+
+- Kanban Board - Zenhub (https://chrome.google.com/webstore/detail/zenhub-for-github/ogcgkffhplmphkaahpmffcafajaocjbd)
+
+칸반보드를 사용하여 전체 소프트웨어 개발 상황을 한 눈에 확인할 수 있도록 합니다.
+
+1. **이슈 생성하기**
+   작업을 시작하기전에 앞서서 Github 이나, Zenhub 를 통해 Issue 를 생성합니다. Issue 에는 앞으로 해야할 작업들을 간단하게 적어 놓습니다.
+
+2. **작업 Assign**
+   어떠한 Issue 가 자신에게 Assign 되면, 작업을 시작할 때 Kanban Board 에서 `In Progress`로 Issue 를 옮깁니다.
+
+3. **Branch 분기**
+   `In Progress`로 Issue 로 옮긴 후, 자신의 개발 과정이 `master` Branch 에 영향을 받지 않도록 `DR-WEB#이슈번호` or `DR-BACK#이슈번호`로 Branch 를 분기한 후 작업합니다.
+
+4. **Pull Request (PR)**
+   해당 Issue 에 대한 개발이 완료되면 PR 을 생성합니다. PR 에는 다른 Reiewer 들이 전반적인 작업내용을 알기 쉽도록 개발 내용을 요약하여 작성하고, 해당 Issue 번호를 Mention 해줍니다.
+
+PR 작성 양식
+
+```
+Related with #이슈번호
+
+* 작업내용1
+* 작업내용2
+* 작업내용3
+```
+
+이렇게 PR 을 작성한 후 Reviwer 에 다른 팀원들을 추가합니다.
+
+팀원들은 Review Request 를 받으면 최대한 빠른 시일 내에 Review 를 해주고 `Approve`혹은 `Deny`를 해줍니다.
+
+최소 한 명 이상 `Approve`를 받았다면, 그 때 `master` branch 와 Merge 합니다.
+
+> Merge 가 Conflict 날 경우에는 `origin/master` branch 를 기준으로 `rebase`를 한 다음 다시 PR 을 요청합니다.
+
+5. **Close Issue**
+   성공적으로 `Merge`가 되었다면, 관련된 Issue 를 Close 하고 다음 Issue 를 Assign 받아 다시 개발을 시작합니다.
